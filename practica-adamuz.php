@@ -6,7 +6,7 @@
  * uso de DocBlocks y etiquetas de documentación.
  * 
  * @author Antonio José Adamuz Torrico <antadamuz23@gmail.com>
- * @version 1.0
+ * @version 1.1
  * @package FuncionesMatemáticas
  */
 
@@ -15,10 +15,11 @@
  * 
  * @param int $num1 Primer sumando
  * @param int $num2 Segundo sumando
- * @return int La suma de los 2 sumandos
+ * @param int $num3 Tercer sumando
+ * @return int La suma de los 3 sumandos
  */
-function sumar(int $num1, int $num2) {
-    return $num1 + $num2;
+function sumar(int $num1, int $num2, int $num3) {
+    return $num1 + $num2 + $num3;
 }
 
 /**
